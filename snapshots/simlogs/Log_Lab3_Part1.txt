@@ -1,0 +1,218 @@
+UVVM: ID_UTIL_SETUP                      0.0 ns  TB seq.              incremented expected WARNINGs by 2. 
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF GLOBAL CTRL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                                IGNORE    STOP_LIMIT                      
+UVVM:                NOTE         :  REGARD         0    
+UVVM:                TB_NOTE      :  REGARD         0    
+UVVM:                WARNING      :  REGARD         0    
+UVVM:                TB_WARNING   :  REGARD         0    
+UVVM:                MANUAL_CHECK :  REGARD         0    
+UVVM:                ERROR        :  REGARD         1    
+UVVM:                TB_ERROR     :  REGARD         1    
+UVVM:                FAILURE      :  REGARD         1    
+UVVM:                TB_FAILURE   :  REGARD         1    
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF MSG ID PANEL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                ID                             Status
+UVVM:                ------------------------       ------
+UVVM:                ID_UTIL_BURIED               : DISABLED    
+UVVM:                ID_BITVIS_DEBUG              : DISABLED    
+UVVM:                ID_UTIL_SETUP                : ENABLED    
+UVVM:                ID_LOG_MSG_CTRL              : ENABLED    
+UVVM:                ID_ALERT_CTRL                : ENABLED    
+UVVM:                ID_FINISH_OR_STOP            : ENABLED    
+UVVM:                ID_CLOCK_GEN                 : ENABLED    
+UVVM:                ID_GEN_PULSE                 : ENABLED    
+UVVM:                ID_BLOCKING                  : ENABLED    
+UVVM:                ID_POS_ACK                   : ENABLED    
+UVVM:                ID_LOG_HDR                   : ENABLED    
+UVVM:                ID_LOG_HDR_LARGE             : ENABLED    
+UVVM:                ID_LOG_HDR_XL                : ENABLED    
+UVVM:                ID_SEQUENCER                 : ENABLED    
+UVVM:                ID_SEQUENCER_SUB             : ENABLED    
+UVVM:                ID_BFM                       : ENABLED    
+UVVM:                ID_BFM_WAIT                  : ENABLED    
+UVVM:                ID_BFM_POLL                  : ENABLED    
+UVVM:                ID_BFM_POLL_SUMMARY          : ENABLED    
+UVVM:                ID_TERMINATE_CMD             : ENABLED    
+UVVM:                ID_SEGMENT_INITIATE          : ENABLED    
+UVVM:                ID_SEGMENT_COMPLETE          : ENABLED    
+UVVM:                ID_SEGMENT_HDR               : ENABLED    
+UVVM:                ID_SEGMENT_DATA              : ENABLED    
+UVVM:                ID_PACKET_INITIATE           : ENABLED    
+UVVM:                ID_PACKET_COMPLETE           : ENABLED    
+UVVM:                ID_PACKET_HDR                : ENABLED    
+UVVM:                ID_PACKET_DATA               : ENABLED    
+UVVM:                ID_FRAME_INITIATE            : ENABLED    
+UVVM:                ID_FRAME_COMPLETE            : ENABLED    
+UVVM:                ID_FRAME_HDR                 : ENABLED    
+UVVM:                ID_FRAME_DATA                : ENABLED    
+UVVM:                ID_COVERAGE_MAKEBIN          : DISABLED    
+UVVM:                ID_COVERAGE_ADDBIN           : DISABLED    
+UVVM:                ID_COVERAGE_ICOVER           : DISABLED    
+UVVM:                ID_COVERAGE_CONFIG           : ENABLED    
+UVVM:                ID_COVERAGE_SUMMARY          : ENABLED    
+UVVM:                ID_COVERAGE_HOLES            : ENABLED    
+UVVM:                ID_UVVM_SEND_CMD             : ENABLED    
+UVVM:                ID_UVVM_CMD_ACK              : ENABLED    
+UVVM:                ID_UVVM_CMD_RESULT           : ENABLED    
+UVVM:                ID_CMD_INTERPRETER           : ENABLED    
+UVVM:                ID_CMD_INTERPRETER_WAIT      : ENABLED    
+UVVM:                ID_IMMEDIATE_CMD             : ENABLED    
+UVVM:                ID_IMMEDIATE_CMD_WAIT        : ENABLED    
+UVVM:                ID_CMD_EXECUTOR              : ENABLED    
+UVVM:                ID_CMD_EXECUTOR_WAIT         : ENABLED    
+UVVM:                ID_INSERTED_DELAY            : ENABLED    
+UVVM:                ID_UVVM_DATA_QUEUE           : ENABLED    
+UVVM:                ID_CONSTRUCTOR               : ENABLED    
+UVVM:                ID_CONSTRUCTOR_SUB           : ENABLED    
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM: ID_LOG_MSG_CTRL                    0.0 ns  TB seq.              enable_log_msg(ALL_MESSAGES). 
+UVVM: ID_LOG_MSG_CTRL                    0.0 ns  TB seq.              disable_log_msg(ID_POS_ACK). 
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                         0.0 ns  TB seq.              Start Simulation of TB for I2C master
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                         0.0 ns  TB seq.              Set default values for I2C master I/O and enable clock and reset system
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                         0.0 ns  TB seq.(uvvm)        Ack error changed value
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_CLOCK_GEN                       0.0 ns  TB seq.              Starting clock TB clock
+UVVM: ID_SEQUENCER_SUB                   0.0 ns  TMP175 model         STOP condition detected
+UVVM: ID_SEQUENCER_SUB                 110.0 ns  TB seq.              Activate async. reset
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       150.0 ns  TB seq.              Setting and check TMP175 config register
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER_SUB                3860.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB               50300.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB               90460.0 ns  TMP175 model         Written: 00000001 to pointer reg.
+UVVM: ID_SEQUENCER_SUB               95480.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              135640.0 ns  TMP175 model         Updated Config .reg. to: 01100000
+UVVM: ID_SEQUENCER_SUB              140660.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              144440.0 ns  TMP175 model         STOP condition detected
+UVVM: ID_SEQUENCER_SUB              154480.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB              200900.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              241060.0 ns  TMP175 model         Written: 00000001 to pointer reg.
+UVVM: ID_SEQUENCER_SUB              246080.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              249860.0 ns  TMP175 model         RESTART condition detected
+UVVM: ID_SEQUENCER_SUB              296280.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              336440.0 ns  TMP175 model         Read Config .reg. of value: 01100000
+UVVM: ID_SEQUENCER_SUB              341460.0 ns  TMP175 model         Master NACK detected
+UVVM: ID_SEQUENCER_SUB              345240.0 ns  TMP175 model         STOP condition detected
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                    347820.0 ns  TB seq.              Setting and check TMP175 THIGH register
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER_SUB              355280.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB              401700.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              441860.0 ns  TMP175 model         Written: 00000011 to pointer reg.
+UVVM: ID_SEQUENCER_SUB              446880.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              487040.0 ns  TMP175 model         Updated Thigh .reg. (MSB) to: (11, 00)
+UVVM: ID_SEQUENCER_SUB              492060.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              532220.0 ns  TMP175 model         Updated Thigh .reg. (LSB) to: 0001000100110011
+UVVM: ID_SEQUENCER_SUB              537240.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              541020.0 ns  TMP175 model         STOP condition detected
+UVVM: ID_SEQUENCER_SUB              551060.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB              597480.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              637640.0 ns  TMP175 model         Written: 00000011 to pointer reg.
+UVVM: ID_SEQUENCER_SUB              642660.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              646440.0 ns  TMP175 model         RESTART condition detected
+UVVM: ID_SEQUENCER_SUB              692860.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              733020.0 ns  TMP175 model         Read Thigh .reg. (MSB) of value: 00010001
+UVVM: ID_SEQUENCER_SUB              738040.0 ns  TMP175 model         Master ACK detected
+UVVM: ID_SEQUENCER_SUB              778200.0 ns  TMP175 model         Read Thigh .reg. (LSB) of value: 00110011
+UVVM: ID_SEQUENCER_SUB              783220.0 ns  TMP175 model         Master NACK detected
+UVVM: ID_SEQUENCER_SUB              787000.0 ns  TMP175 model         STOP condition detected
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                    789580.0 ns  TB seq.              Setting and check TMP175 TLOW register
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER_SUB              797040.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB              843460.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB              883620.0 ns  TMP175 model         Written: 00000010 to pointer reg.
+UVVM: ID_SEQUENCER_SUB              888640.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              928800.0 ns  TMP175 model         Updated Tlow .reg. (MSB) to: (55, 00)
+UVVM: ID_SEQUENCER_SUB              933820.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              973980.0 ns  TMP175 model         Updated Tlow .reg. (LSB) to: 0101010111001100
+UVVM: ID_SEQUENCER_SUB              979000.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB              982780.0 ns  TMP175 model         STOP condition detected
+UVVM: ID_SEQUENCER_SUB              992820.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB             1039240.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB             1079400.0 ns  TMP175 model         Written: 00000010 to pointer reg.
+UVVM: ID_SEQUENCER_SUB             1084420.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB             1088200.0 ns  TMP175 model         RESTART condition detected
+UVVM: ID_SEQUENCER_SUB             1134620.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB             1174780.0 ns  TMP175 model         Read Tlow .reg. (MSB) of value: 01010101
+UVVM: ID_SEQUENCER_SUB             1179800.0 ns  TMP175 model         Master ACK detected
+UVVM: ID_SEQUENCER_SUB             1219960.0 ns  TMP175 model         Read Tlow .reg. (LSB) of value: 11001100
+UVVM: ID_SEQUENCER_SUB             1224980.0 ns  TMP175 model         Master NACK detected
+UVVM: ID_SEQUENCER_SUB             1228760.0 ns  TMP175 model         STOP condition detected
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                   1231340.0 ns  TB seq.              Preforming write and read of TMP175 temperature register
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_SEQUENCER_SUB             1238800.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB             1285220.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB             1325380.0 ns  TMP175 model         Written: 00000000 to pointer reg.
+UVVM: ID_SEQUENCER_SUB             1330400.0 ns  TMP175 model         Ack Data TMP175
+UVVM: 
+UVVM: ***  WARNING #1  ***
+UVVM:       1370560 ns   TMP175 model
+UVVM:                    Temp. reg is read only!
+UVVM: 
+UVVM: ID_SEQUENCER_SUB             1375580.0 ns  TMP175 model         Ack Data TMP175
+UVVM: 
+UVVM: ***  WARNING #2  ***
+UVVM:       1415740 ns   TMP175 model
+UVVM:                    Temp. reg is read only!
+UVVM: 
+UVVM: ID_SEQUENCER_SUB             1420760.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB             1424540.0 ns  TMP175 model         STOP condition detected
+UVVM: ID_SEQUENCER_SUB             1434580.0 ns  TMP175 model         START condition detected
+UVVM: ID_SEQUENCER_SUB             1481000.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB             1521160.0 ns  TMP175 model         Written: 00000000 to pointer reg.
+UVVM: ID_SEQUENCER_SUB             1526180.0 ns  TMP175 model         Ack Data TMP175
+UVVM: ID_SEQUENCER_SUB             1529960.0 ns  TMP175 model         RESTART condition detected
+UVVM: ID_SEQUENCER_SUB             1576380.0 ns  TMP175 model         Ack Address TMP175
+UVVM: ID_SEQUENCER_SUB             1616540.0 ns  TMP175 model         Read Temp. reg. (MSB) of value: 10100101
+UVVM: ID_SEQUENCER_SUB             1621560.0 ns  TMP175 model         Master ACK detected
+UVVM: ID_SEQUENCER_SUB             1661720.0 ns  TMP175 model         Read Temp. reg. (LSB) of value: 01011010
+UVVM: ID_SEQUENCER_SUB             1666740.0 ns  TMP175 model         Master NACK detected
+UVVM: ID_SEQUENCER_SUB             1670520.0 ns  TMP175 model         STOP condition detected
+UVVM:      
+UVVM:      ====================================================================================================================================================================
+UVVM:      *** FINAL SUMMARY OF ALL ALERTS  ***      
+UVVM:      ====================================================================================================================================================================
+UVVM:                                REGARDED   EXPECTED  IGNORED      Comment?
+UVVM:                NOTE         :      0         0         0         ok      
+UVVM:                TB_NOTE      :      0         0         0         ok      
+UVVM:                WARNING      :      2         2         0         ok      
+UVVM:                TB_WARNING   :      0         0         0         ok      
+UVVM:                MANUAL_CHECK :      0         0         0         ok      
+UVVM:                ERROR        :      0         0         0         ok      
+UVVM:                TB_ERROR     :      0         0         0         ok      
+UVVM:                FAILURE      :      0         0         0         ok      
+UVVM:                TB_FAILURE   :      0         0         0         ok      
+UVVM:      ====================================================================================================================================================================
+UVVM:      >> Simulation SUCCESS: No mismatch between counted and expected serious alerts
+UVVM:      ====================================================================================================================================================================
+UVVM:      
+UVVM:      
+
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                   1674060.0 ns  TB seq.              SIMULATION COMPLETED
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_CLOCK_GEN                 1674080.0 ns  TB seq.              Stopping clock TB clock

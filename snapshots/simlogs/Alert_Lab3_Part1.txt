@@ -1,0 +1,10 @@
+UVVM: 
+UVVM: ***  WARNING #1  ***
+UVVM:       1370560 ns   TMP175 model
+UVVM:                    Temp. reg is read only!
+UVVM: 
+UVVM: 
+UVVM: ***  WARNING #2  ***
+UVVM:       1415740 ns   TMP175 model
+UVVM:                    Temp. reg is read only!
+UVVM: 
